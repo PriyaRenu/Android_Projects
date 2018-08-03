@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main4Activity">
+
+    <TextView
+        android:id="@+id/tt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9a9ba1"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/article_title"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eede">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#eeee"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/td"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                android:scrollbars="vertical"
+                android:text="@string/article_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9a9ba1"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                android:scrollbars="vertical"
+                android:text="@string/article_subtitle"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="#eeee"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                android:scrollbars="vertical"
+                android:text="@string/article_text1"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                android:scrollbars="vertical"
+                android:background="#9a9ba1"
+                android:text="@string/article_subtitle1"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="#eeee"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                android:scrollbars="vertical"
+                android:text="@string/article_text2"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

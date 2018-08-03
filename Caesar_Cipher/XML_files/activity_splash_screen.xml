@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeee"
+    android:orientation="vertical"
+    tools:context=".splash_screen">
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="451dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp"
+        android:background="#1a6680"
+        android:soundEffectsEnabled="true"
+        android:text="find the decrypted word"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="242dp"
+        android:background="#1a6680"
+        android:soundEffectsEnabled="true"
+        android:text="find the encrypted word"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="157dp"
+        android:background="#1a6680"
+        android:text="About Ceaser Cipher"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>

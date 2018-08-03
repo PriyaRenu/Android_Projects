@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Caesar_Cipher</string>
+    <string name="article_title"><b>ABOUT CEASER CIPHER</b> </string>
+    <string name="article_text">Caesar Cipher. ...
+        \nIt is a type of substitution cipher where each letter in the original message
+        (which in cryptography is called the plaintext) is replaced with a letter corresponding to a certain
+        number of letters shifted up or down in the alphabet.</string>
+    <string name="article_subtitle"><b>Encryption</b></string>
+    <string name="article_text1">Caesar cipher encryption algorithm is one of the most simplest and widely used encryption algorithms. In this algorithm every alphabetical character in the plain text is replaced by a character/letter some fixed number of positions down the alphabet.
+        \n\nE(x)=( x + n ) mod 26
+
+\nFor an example consider the following plain text.
+
+\nPlain Text: A B C D E F
+
+\nKey: 3
+
+\nCipher Text: D E F G H I
+
+Every letter of the plain text have been incremented by the provided key value. The same procedure is carried out in decryption but the difference is the value of the key is decreased from the cipher text in order to get the respective plain text.</string>
+    <string name="article_subtitle1"><b>Decryption</b></string>
+    <string name="article_text2">Decryption of the encrypted text (called the cipher text) would be carried out similarly, subtracting the shift amount.
+        \n\nD(x)=( x - n ) mod 26
+        \n\nFor an example consider the following cipher text.
+        \nCipher Text: D E F G H I
+        \nKey: 3
+        \nPlain Text: A B C D E F
+\n\nFirst used by Julius Caesar, the Caesar Cipher is one of the more well-known older historical encryption  and decryption methods.
+    </string>
+</resources>
+
+
