@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.priyars.priya.tables.Main4Activity">
+
+    <RelativeLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="#DEEFF7"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/imgPlay"
+            android:layout_width="164dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rectanglebox"
+            android:soundEffectsEnabled="true"
+            android:text="Play"
+            android:textAlignment="center"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/imgStop"
+            android:layout_width="184dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/rectanglebox"
+            android:soundEffectsEnabled="true"
+            android:text="Stop"
+            android:textAlignment="center"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DEEFF7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:background="#DEEFF7"
+                android:inputType="textMultiLine|textImeMultiLine"
+                android:scrollHorizontally="false"
+                android:scrollbars="vertical"
+                android:textSize="24dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
